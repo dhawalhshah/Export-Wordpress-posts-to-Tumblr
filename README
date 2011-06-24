@@ -1,0 +1,4 @@
+This is a small php script to export your posts from Wordpress to Tumblr. Use the following steps to do so:
+1) Go to Tools->Export in your Wordpress admin panel and get a export file.
+2) Set the email, password of your Tumblr blog and the name/location of the export file at the top of the script
+3) Run the script in a browser or through command line
