@@ -88,7 +88,7 @@ class Tumblr {
             return false;
         }
 
-        $params = array_intersect($this->postParameters, $additionalParams);
+        $params = array_intersect_key($additionalParams, $this->postParameters);
         $params = array_merge(
                 $params, array('title' => $title, 'body' => $body, 'type' => 'regular')
         );
